@@ -1,0 +1,11 @@
+category,FF,NSH,sCF,mCF
+Dry_etch,170,205,233,196
+Metallization,29,53,53,56
+Wet_etch,169,280,288,275
+Deposition,180,235,276,239
+EUV,12,29,29,25
+ArFi_LE,25,29,29,29
+ArF_LE,5,8,8,8
+KrF,11,2,2,2
+HG,0,8,8,8
+TOTAL,601,849,926,838

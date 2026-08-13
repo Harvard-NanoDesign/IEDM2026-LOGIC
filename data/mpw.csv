@@ -1,0 +1,6 @@
+material_category,unit,FF,NSH,sCF,mCF
+silicon_wafer,kgCO2e,26,52,78,52
+chemicals,kgCO2e,0.1580255193,0.6016733582,0.7325985504,0.594440218
+NF3_gas,kgCO2e,5.715,7.461,8.763,7.588
+C4F8_gas,kgCO2e,0.330,0.398,0.452,0.380
+SF6_gas,kgCO2e,9.372,11.301,12.845,10.805
