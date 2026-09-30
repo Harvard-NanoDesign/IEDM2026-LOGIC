@@ -1,0 +1,23 @@
+# GPW: direct process-gas emissions after abatement, kgCO2e per step,
+# applied to the flow's dry-etch and deposition (CVD) step counts.
+gases_kgco2e_per_step:
+  C4F8:
+    Dry_etch: 0.0059435627852620545
+  SF6:
+    Dry_etch: 0.14510333956049384
+  NF3:
+    Deposition: 0.43688
+  BCF4:
+    Dry_etch: 0.005194184154974254
+    Deposition: 0.0189958472
+  BC2F6:
+    Dry_etch: 0.003961888642854839
+    Deposition: 0.013944600000000001
+  BCHF3:
+    Dry_etch: 0.00024188421257534246
+    Deposition: 0.0037592000000000003
+  BCH2F2:
+    Dry_etch: 9.45693796692607e-07
+    Deposition: 5.89788e-06
+  BCH3F:
+    Deposition: 9.42848e-06

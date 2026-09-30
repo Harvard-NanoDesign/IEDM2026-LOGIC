@@ -1,0 +1,14 @@
+# EPW: tool energy per step and its conversion to kgCO2e per wafer.
+# IEDM BEOL energy values apply to every step, including FEOL.
+ci_fab_kgco2e_per_kwh: 0.43
+facility_overhead: 1.4      # total fab energy = tool energy x this
+energy_per_step_kwh:
+  Dry_etch: 1.333333333333333
+  Metallization: 2.0
+  Wet_etch: 0.2761904761904762
+  Deposition: 1.094444444444444
+  EUV: 3.25
+  ArFi_LE: 0.3611111111111111
+  ArF_LE: 0.3333333333333333
+  KrF: 0.3333333333333333
+  HG: 0.3333333333333333

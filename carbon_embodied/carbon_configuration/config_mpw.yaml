@@ -1,0 +1,15 @@
+# MPW: silicon wafers (one per TCAD Wafer step) and upstream gas production.
+wafer_kgco2e: 26.0              # per 300 mm wafer
+upstream_gases:
+  NF3_gas:
+    step_category: Deposition
+    kg_gas_per_step: 0.00254
+    kgco2e_per_kg_gas: 12.5
+  C4F8_gas:
+    step_category: Dry_etch
+    kg_gas_per_step: 0.0001602902585
+    kgco2e_per_kg_gas: 12.1
+  SF6_gas:
+    step_category: Dry_etch
+    kg_gas_per_step: 0.000438909073
+    kgco2e_per_kg_gas: 125.6
