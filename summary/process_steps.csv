@@ -1,0 +1,16 @@
+process_area,FF,NSH,sCF,mCF
+CVD,158,224,259,229
+ArF-i,19,28,28,28
+Wet_etch,34,4,4,4
+RIE,127,158,175,144
+Resist,47,70,75,72
+EUV,14,29,35,32
+CMP,24,46,57,49
+KrF,14,3,3,3
+Diffusion,23,37,38,38
+Metallization,39,64,68,69
+Wafer_clean,68,156,170,170
+Ion_implantation,4,7,7,7
+ArF,3,8,8,8
+Hg,0,6,6,6
+TOTAL,574,840,933,859
