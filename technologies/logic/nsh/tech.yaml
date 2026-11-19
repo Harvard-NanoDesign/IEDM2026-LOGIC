@@ -1,0 +1,20 @@
+# nsh: nanosheet FET (NSH), 2 nm class, backside power network on a bonded carrier wafer.
+csv: nsh_final.csv
+routes:                # carrier wafer, then the flow CSV
+  - route: GAA_Carrier_Wafer
+    flow: GAA_Blank_Carrier
+    module: Wafer Start
+    step: substrate
+    substrate: {MaterialFilter: Silicon, Thickness: 0.5 um, ColumnSizeX: 0.0025 um, ColumnSizeY: 0.0025 um}
+  - {route: nsh}
+layout: nsh_layout.gds
+clip:
+  name: H37
+  coords: [0.023, -0.016, 0.607, 0.304]   # x0 y0 x1 y1 (um)
+die_area_mm2: null
+render:
+  resolution: 1024x768
+  zoom_box: null
+  cuts:                # x through a gate, y along a fin / sheet
+    - {axis: x, at: 0.29375}
+    - {axis: y, at: 0.18375}
